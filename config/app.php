@@ -177,6 +177,8 @@ return [
         App\Providers\FortifyServiceProvider::class,
         InfyOm\GeneratorBuilder\GeneratorBuilderServiceProvider::class,
         Yajra\DataTables\DataTablesServiceProvider::class,
+        Yajra\Datatables\ButtonsServiceProvider::class, 
+        Yajra\Datatables\HtmlServiceProvider::class, 
         \InfyOm\RoutesExplorer\RoutesExplorerServiceProvider::class,
     ],
 
@@ -236,7 +238,7 @@ return [
         'Flash'     => Laracasts\Flash\Flash::class,
         'PDF' => Barryvdh\Snappy\Facades\SnappyPdf::class,
         'SnappyImage' => Barryvdh\Snappy\Facades\SnappyImage::class,
-
+        'Datatables' => Yajra\DataTables\Facades\DataTables::class,
     ],
 
 ];

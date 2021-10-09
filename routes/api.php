@@ -56,3 +56,6 @@ Route::resource('andris', App\Http\Controllers\API\andriAPIController::class);
 
 
 Route::resource('qws', App\Http\Controllers\API\qwAPIController::class);
+
+
+Route::resource('safitris', App\Http\Controllers\API\SafitriAPIController::class);
