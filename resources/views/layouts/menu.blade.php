@@ -4,3 +4,7 @@
     </a>
 </li>
 
+<li class="{{ Request::is('plans*') ? 'active' : '' }}">
+    <a href="{{ route('plans.index') }}"><i class="fas fa-edit"></i><span>@lang('models/plans.plural')</span></a>
+</li>
+
