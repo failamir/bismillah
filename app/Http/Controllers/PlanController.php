@@ -30,7 +30,12 @@ class PlanController extends AppBaseController
      */
     public function index(PlanDataTable $planDataTable)
     {
-        return $planDataTable->render('plans.index');
+        // return $planDataTable->render('plans.index');
+        // print (Plan::where('id',2)->firstorfail());
+        // var_dump($planDataTable);
+        foreach (Plan::all() as $flight) {
+            echo $flight->name;
+        }
     }
 
     /**
