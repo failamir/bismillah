@@ -3,14 +3,9 @@
         <i class=" fas fa-building"></i><span>Dashboard</span>
     </a>
 </li>
-<<<<<<< Updated upstream
-
-<<<<<<< HEAD
 <li class="{{ Request::is('plans*') ? 'active' : '' }}">
-    <a href="{{ route('plans.index') }}"><i class="fas fa-edit"></i><span>@lang('models/plans.plural')</span></a>
+    <a href="{{ route('plans.index') }}"><i class="fas fa-rocket"></i><span>@lang('models/plans.plural')</span></a>
 </li>
-
-=======
-=======
->>>>>>> Stashed changes
->>>>>>> fix
+<li class="{{ Request::is('contohs*') ? 'active' : '' }}">
+    <a href="{{ route('contohs.index') }}"><i class="fas fa-rocket"></i><span>@lang('models/contohs.plural')</span></a>
+</li>

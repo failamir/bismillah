@@ -114,11 +114,7 @@ class Plan extends Model
      * @var array
      */
     public static $rules = [
-<<<<<<< HEAD
-        
-=======
         'description' => 'nullable'
->>>>>>> fix
     ];
 
     
