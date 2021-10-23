@@ -9,6 +9,10 @@ use App\Http\Requests\UpdatePlanRequest;
 use App\Repositories\PlanRepository;
 use Laracasts\Flash\Flash;
 use App\Http\Controllers\AppBaseController;
+<<<<<<< HEAD
+=======
+use App\Models\Plan;
+>>>>>>> fix
 use Response;
 
 class PlanController extends AppBaseController
@@ -30,6 +34,10 @@ class PlanController extends AppBaseController
     public function index(PlanDataTable $planDataTable)
     {
         return $planDataTable->render('plans.index');
+<<<<<<< HEAD
+=======
+        // return Plan::all();
+>>>>>>> fix
     }
 
     /**
@@ -52,6 +60,10 @@ class PlanController extends AppBaseController
     public function store(CreatePlanRequest $request)
     {
         $input = $request->all();
+<<<<<<< HEAD
+=======
+        $path = '';
+>>>>>>> fix
         if ($request->hasFile('image')){
             $Validation = $request->validate([
                 'image' => 'required|file|mimes:png,jpg,jpeg,gif|max:8000'
@@ -168,6 +180,10 @@ class PlanController extends AppBaseController
             return redirect(route('plans.index'));
         }
         $input = $request->all();
+<<<<<<< HEAD
+=======
+        $path = '';
+>>>>>>> fix
         if ($request->hasFile('image')){
             $Validation = $request->validate([
                 'image' => 'required|file|mimes:png,jpg,jpeg,gif|max:8000'

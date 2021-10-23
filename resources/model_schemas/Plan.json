@@ -27,7 +27,11 @@
         "name": "description",
         "dbType": "text",
         "htmlType": "text",
+<<<<<<< HEAD
         "validations": "",
+=======
+        "validations": "nullable",
+>>>>>>> fix
         "searchable": true,
         "fillable": true,
         "primary": false,

@@ -8,7 +8,11 @@ use App\Repositories\BaseRepository;
 /**
  * Class PlanRepository
  * @package App\Repositories
+<<<<<<< HEAD
  * @version October 22, 2021, 6:27 pm UTC
+=======
+ * @version October 22, 2021, 9:53 pm UTC
+>>>>>>> fix
 */
 
 class PlanRepository extends BaseRepository

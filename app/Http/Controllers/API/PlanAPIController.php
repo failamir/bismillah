@@ -113,6 +113,10 @@ class PlanAPIController extends AppBaseController
     public function store(CreatePlanAPIRequest $request)
     {
         $input = $request->all();
+<<<<<<< HEAD
+=======
+        $path = '';
+>>>>>>> fix
         if ($request->hasFile('image')){
             $Validation = $request->validate([
                 'image' => 'required|file|mimes:png,jpg,jpeg,gif|max:8000'

@@ -30,7 +30,7 @@
         <div class="navbar-bg"></div>
         <nav class="navbar navbar-expand-lg main-navbar">
             @include('layouts.header')
-
+      
         </nav>
         <div class="main-sidebar main-sidebar-postion">
             @include('layouts.sidebar')
@@ -55,6 +55,7 @@
 <script src="{{ asset('assets/js/sweetalert.min.js') }}"></script>
 <script src="{{ asset('assets/js/iziToast.min.js') }}"></script>
 <script src="{{ asset('assets/js/select2.min.js') }}"></script>
+
 <script src="{{ asset('assets/js/jquery.nicescroll.js') }}"></script>
 
 <!-- Template JS File -->
