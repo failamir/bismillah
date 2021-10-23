@@ -36,3 +36,12 @@ Route::post(
     '\InfyOm\GeneratorBuilder\Controllers\GeneratorBuilderController@generateFromFile'
 )->name('io_generator_builder_generate_from_file');
 
+<<<<<<< Updated upstream
+=======
+
+
+Route::resource('plans', App\Http\Controllers\PlanController::class);
+
+
+Route::resource('contohs', App\Http\Controllers\ContohController::class);
+>>>>>>> Stashed changes

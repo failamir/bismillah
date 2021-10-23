@@ -17,3 +17,12 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+<<<<<<< Updated upstream
+=======
+
+
+Route::resource('plans', App\Http\Controllers\API\PlanAPIController::class);
+
+
+Route::resource('contohs', App\Http\Controllers\API\ContohAPIController::class);
+>>>>>>> Stashed changes
