@@ -8,4 +8,11 @@
 </li>
 <li class="{{ Request::is('contohs*') ? 'active' : '' }}">
     <a href="{{ route('contohs.index') }}"><i class="fas fa-rocket"></i><span>@lang('models/contohs.plural')</span></a>
+</li><li class="{{ Request::is('beritas*') ? 'active' : '' }}">
+    <a href="{{ route('beritas.index') }}"><i class="fa fa-edit"></i><span>@lang('models/beritas.plural')</span></a>
 </li>
+
+<li class="{{ Request::is('news*') ? 'active' : '' }}">
+    <a href="{{ route('news.index') }}"><i class="fa fa-edit"></i><span>@lang('models/news.plural')</span></a>
+</li>
+

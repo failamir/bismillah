@@ -39,3 +39,9 @@ Route::post(
 Route::resource('plans', App\Http\Controllers\PlanController::class);
 
 Route::resource('contohs', App\Http\Controllers\ContohController::class);
+
+
+Route::resource('beritas', App\Http\Controllers\BeritaController::class);
+
+
+Route::resource('news', App\Http\Controllers\NewsController::class);

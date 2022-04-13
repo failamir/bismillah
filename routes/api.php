@@ -23,3 +23,9 @@ Route::resource('plans', App\Http\Controllers\API\PlanAPIController::class);
 Route::resource('plans', App\Http\Controllers\API\PlanAPIController::class);
 
 Route::resource('contohs', App\Http\Controllers\API\ContohAPIController::class);
+
+
+Route::resource('beritas', App\Http\Controllers\API\BeritaAPIController::class);
+
+
+Route::resource('news', App\Http\Controllers\API\NewsAPIController::class);
